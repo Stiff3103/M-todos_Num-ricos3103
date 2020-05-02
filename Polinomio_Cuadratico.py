@@ -3,7 +3,13 @@
 Created on Sat May  2 17:13:17 2020
 
 @author: Stiff
-"""rint
+"""
+print('''Hola, 
+el siguiente programa funciona como un ejercicio de interpolación cuadratica,
+es decir funciona para encontrar los valores de Fx, dado el valor de x''')
+
+
+
 def Polinomio_Cuadratico(x,fx):
     f0=fx[0]
     f1=(fx[0]-fx[1])/(x[1]-x[0])
