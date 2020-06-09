@@ -40,8 +40,8 @@ def RungeKutta(f,a,b,y0,h):
     
 a=float(input('Inserte el valor de a: '))
 b=float(input('Inserte el valor de b: '))
-y0=float(input('Inserte el valor de y0'))
-h=float(input('Inserte el valor de h'))
+y0=float(input('Inserte el valor de y0: '))
+h=float(input('Inserte el valor de h: '))
 
 RungeKutta(f, a, b, y0, h) 
 
